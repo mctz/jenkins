@@ -2,8 +2,8 @@
 - 长期支持版本【V2.164】
 - docker镜像安装：
 - 便捷安装：
-linux安装： docker run --name jenkins -p 18080:8080 -v /etc/localtime:/etc/localtime:ro --restart=always registry.cn-hangzhou.aliyuncs.com/masilong/jenkins
-windows安装：docker run --name jenkins -p 18080:8080 -v /etc/localtime:/etc/localtime:ro -v E:/dockerData/jenkins:/var/jenkins_home --restart=always --env JENKINS_HOME=/var/jenkins_home registry.cn-hangzhou.aliyuncs.com/masilong/jenkins
+- linux安装： docker run --name jenkins -p 18080:8080 -v /etc/localtime:/etc/localtime:ro --restart=always registry.cn-hangzhou.aliyuncs.com/masilong/jenkins
+- windows安装：docker run --name jenkins -p 18080:8080 -v /etc/localtime:/etc/localtime:ro -v E:/dockerData/jenkins:/var/jenkins_home --restart=always --env JENKINS_HOME=/var/jenkins_home registry.cn-hangzhou.aliyuncs.com/masilong/jenkins
 
 
 - 完整安装：
