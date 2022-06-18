@@ -1,5 +1,4 @@
-# jenkins
-- 长期支持版本【V2.164】
+# Jenkins 2.332.3
 - docker镜像安装：
 - 便捷安装：
 - linux安装： docker run --name jenkins -p 18080:8080 -v /etc/localtime:/etc/localtime:ro --restart=always registry.cn-hangzhou.aliyuncs.com/masilong/jenkins
